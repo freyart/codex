@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Almendra|Vollkorn|Lato|Libre+Baskerville|Noto+Sans');
+
+:root {
+    --main-bg-color: whitesmoke;
+    --main-flourish-color:  #f5eacd;
+    --secondary-flourish-color: #CCC6AC;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Vollkorn', sans-serif;
+    padding-top: 70px;
+}
+
+.bg-site {
+    background-color: rgba(245, 234, 205, 0.4);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Alegreya SC', serif;
+}
+
+h1 {
+    color: #9D9683;
+    text-align: center;
+}
+
+/* Pour l'affichage des listes de personnages */
+.liste-personnages div.card {
+    margin-top: 1rem;
+}
+
+.liste-personnages div.card blockquote {
+    font-size: 1rem;
+    text-align: right;
+    font-size: small;
+    font-style: oblique;
+    margin-bottom: 0;
+}
+
+.liste-personnages blockquote::before {
+    content: "\2013\00a0\201C";
+}
+
+.liste-personnages blockquote::after {
+    content: "\201D";
+}
+
+.liste-personnages .card-title{
+    margin-bottom:0;
+}
+
+.liste-personnages div.card-body {
+    padding: 10px;
+}
+
+.liste-personnages div.card-picture{
+    height: fit-content;
+}
+
+.liste-personnages img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.liste-personnages .row>div{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+/* Pour l'affichage des listes de personnages */
+.journal-campagne .card {
+    background-color: gainsboro;
+}
+
+.journal-campagne .card p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    text-align-last: left;
+}
+
+.journal-campagne .card ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 2em;
+    text-indent: -1em;
+}
+
+.journal-campagne .card li:before {
+    content: "- "
+}
+
+.journal-campagne .card-header {
+    background-color: silver;
+}
+
+.journal-campagne .card.new>.card-header {
+    background-color: rgb(221, 205, 165);
+}
+
+.journal-campagne .card-header h5{
+    margin-bottom: 0;
+}
+
+.journal-campagne .card.new .card-title::before {
+    content: "(nouveau !) "
+}
+
+.journal-campagne .card-subtitle {
+    clear: both;
+    font-style: italic;
+}
+
+/* News */
+.news-block {
+    font-size: small;
+    margin-bottom: 0.5rem;
+}
+
+.news-date {
+    font-size: medium;
+    padding-left: 5px;
+    background-color:var(--main-flourish-color);
+}
+
+.news-message{
+    padding:5px;
+    padding-left: 15px;
+}
+
+/* Pour les images de la gallerie de personnages */
+.liste-personnages .card-img-top {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.liste-personnages .card-img-top {
+    cursor: pointer;
+    transition: 0.3s;
+    object-fit: cover;
+    object-position: 50% 0%;
+    max-height: 20rem;
+    overflow-y: hidden;
+} 
+
+.liste-personnages .card-img-top:hover {
+    opacity: 0.7;
+}
+
+/* The Modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: auto;
+    max-height: 80vh;
+}
+
+#modal-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+
+  .modal-content, #modal-caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+
+  .close {
+    position: absolute;
+    top: 60px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  img.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
+  /* LES BUBULES ET DIALOGUES COMIC STYLE */
+  a.hoverbubble {
+    position: relative;
+    text-decoration: none;
+  }
+  a.hoverbubble span {display: none;}
+  a.hoverbubble:hover span {
+      display: block;
+      position: absolute;
+      padding: .5em;
+      content: attr(title);
+      min-width: px;
+      text-align: center;
+      width: auto;
+      height: auto;
+      white-space: nowrap;
+      top: -40px;
+      background: rgba(0,0,0,.8);
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 0.86em;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  a.hoverbubble:hover span:after {
+      position: absolute;
+      display: block;
+      content: "";
+      border-color: rgba(0,0,0,.8) transparent transparent transparent;
+      border-style: solid;
+      border-width: 10px;
+      height: 0;
+      width: 0;
+      position: absolute;
+      bottom: -20px;
+      left: 1em;
+  }

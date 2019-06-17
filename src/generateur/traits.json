@@ -1,0 +1,524 @@
+{
+    "personality": [
+        {
+            "name": "JEALOUS",
+            "desc": "So deep do they love that they cannot stand to share the object of their affection."
+        },
+        {
+            "name": "LACKADAISICAL",
+            "desc": "Listless & unenthusiastic. Nothing interests them enough to motivate them."
+        },
+        {
+            "name": "MISCHIEVOUS",
+            "desc": "Puckish, even fiendish. A trickster who loves to mislead & confound others."
+        },
+        {
+            "name": "ARTISTE",
+            "desc": "A talented/natural artist, can paint and draw very well."
+        },
+        {
+            "name": "POET",
+            "desc": "A talented/natural wordsmith, competent in both verse and prose."
+        },
+        {
+            "name": "VIRTUOSO",
+            "desc": "A talented/natural musician, can play one or more instruments and write music."
+        },
+        {
+            "name": "ART LOVER",
+            "desc": "Loves to look at art and has refined taste."
+        },
+        {
+            "name": "BOOKWORM",
+            "desc": "Reads quicker & comprehends better than most, likes being around by books and usually has one with them."
+        },
+        {
+            "name": "ART HATER",
+            "desc": "Hates art, doesn't like talking about or being around it. May not understand art, or find it pretentious."
+        },
+        {
+            "name": "GREEN THUMB",
+            "desc": "Likes to grow things. Grows higher-quality things & can grow in bad conditions. May talk to plants."
+        },
+        {
+            "name": "HANDY",
+            "desc": "Good at modifying and repairing things, especially machines."
+        },
+        {
+            "name": "FORGETFUL",
+            "desc": "May forget tasks even as they do them, seguing seamlessly into something else."
+        },
+        {
+            "name": "DREAMER",
+            "desc": "A fanciful aesthetic combined with a good imagination. Leads a rich inner life."
+        },
+        {
+            "name": "ATHLETIC",
+            "desc": "Likes Sports & Exercise. Annoyed by complaints about physical activity."
+        },
+        {
+            "name": "GOURMET",
+            "desc": "Likes cooking & eating. A superior cook, can figure out recipes just by eating something."
+        },
+        {
+            "name": "KLEPTOMANIAC",
+            "desc": "Compulsively swipes things; may return them anonymously. Practice makes them a skilled thief."
+        },
+        {
+            "name": "VEHICLE NUT",
+            "desc": "Loves vehicles; can work on & drive anything, or talk about them ad nauseum."
+        },
+        {
+            "name": "DANCER",
+            "desc": "Good at dancing and loves to do it. May be formally trained, a professional, or just a skilled amateur."
+        },
+        {
+            "name": "ELOQUENT",
+            "desc": "Silver-Tongued. Have knack for prose & verse. Like to use big words and usually have a large vocabulary."
+        },
+        {
+            "name": "FRUGAL",
+            "desc": "Good at fiduciary matters. Never spends money when it's not necessary, and regrets when it is."
+        },
+        {
+            "name": "VENGEFUL",
+            "desc": "Easy to offend/insult. Holds grudges forever and always tries to repay them."
+        },
+        {
+            "name": "TEMPESTUOUS",
+            "desc": "Mood shifts rapidly. Will be wild in anger or sorrow."
+        },
+        {
+            "name": "HIGH STRUNG",
+            "desc": "Gets stressed from working. Needs support of friends to function, & bonds with those who humor them."
+        },
+        {
+            "name": "EXCITABLE",
+            "desc": "Get psyched from doing even the most basic things."
+        },
+        {
+            "name": "IMPULSIVE",
+            "desc": "Doesn't think through decisions, acts on whims. Desires & Fears often arbitrary or contradictory."
+        },
+        {
+            "name": "RECKLESS",
+            "desc": "Does not recognize when a situation is dangerous or simply feels no fear about it. Doesn't back off a challenge."
+        },
+        {
+            "name": "BRAVE",
+            "desc": "Faces and defeats their fears. Never panics, even in a crisis. Can and will Fight if challenged."
+        },
+        {
+            "name": "COWARD",
+            "desc": "Fears the dark. Will flee scary situations. Vulnerable to bullies, and they know it."
+        },
+        {
+            "name": "ANXIOUS",
+            "desc": "Never gets upset, just anxious. May freak out even under minimal stress, becoming serene afterward."
+        },
+        {
+            "name": "NEUROTIC",
+            "desc": "Paranoid. Gets anxious about random things & must \"check\" them. May have conspiracy theories."
+        },
+        {
+            "name": "NEAT",
+            "desc": "Likes to clean & keep things tidy. Cleans when nervous. Obsesses over hygiene; wont use dirty objects."
+        },
+        {
+            "name": "SLOB",
+            "desc": "Unaffected & may even prefer them dirty surroundings; Hates to clean. Will eat spoiled or burnt food."
+        },
+        {
+            "name": "BULLY",
+            "desc": "Comfortable with coercion. An expert at finding and exploiting other's fears & weaknesses."
+        },
+        {
+            "name": "HUMBLE",
+            "desc": "Never brags or offers their unsolicited opinion, regardless of their actual self-regard."
+        },
+        {
+            "name": "TALKS TO SELF",
+            "desc": "...and enjoys the conversation."
+        },
+        {
+            "name": "LUCKY",
+            "desc": "Less likely to suffer negative events/more likely to enjoy positive events. May wake up \"Feeling Lucky\"."
+        },
+        {
+            "name": "CLUMSY",
+            "desc": "Get tripped up, drops things, breaks things, accidently starts fires, occasionally injures themselves."
+        },
+        {
+            "name": "LOUNGER",
+            "desc": "Not really lazy, just likes to be relaxed & sedentary. Likes passive forms of entertainment."
+        },
+        {
+            "name": "HYDROPHOBE",
+            "desc": "Wont swim or soak voluntarily & doesn't enjoy bathing."
+        },
+        {
+            "name": "CHARISMATIC",
+            "desc": "Likable. Bonds with others quickly. Superior conversationalist and is more convincing."
+        },
+        {
+            "name": "UNCOMMITED",
+            "desc": "Hates commitment; frets if they have any. Will change their situation if they feel cooped-up."
+        },
+        {
+            "name": "AWED",
+            "desc": "Can be impressed by almost anything. Though humble, they are very responsive to boasting and hyperbole."
+        },
+        {
+            "name": "CASSANOVA",
+            "desc": "Inclined to romance & skilled at it. Turns relationships romantic easily. A casual flirt & good kisser."
+        },
+        {
+            "name": "GENIUS",
+            "desc": "Fascinated by new things and ideas. Learns formal systems quickly & better at using them."
+        },
+        {
+            "name": "ABSENT-MINDED",
+            "desc": "Circumstances just slip their mind, and they frequently fail to account for the needs of others."
+        },
+        {
+            "name": "LOGICAL",
+            "desc": "likes games of logic, probably competent in mathematics or sciences."
+        },
+        {
+            "name": "BRILLIANT",
+            "desc": "Can illuminate or baffle non-geniuses with deep ideas. Above-average teachers."
+        },
+        {
+            "name": "CRAZY",
+            "desc": "Prone to illogical behavior. Dresses oddly. Amusing. Occasionally says something disturbing."
+        },
+        {
+            "name": "OBLIVIOUS",
+            "desc": "Often ignores their surroundings, disregards the weather. Oblivious to danger, so comes off as fearless."
+        },
+        {
+            "name": "FRIENDLY",
+            "desc": "Good at friendly interactions & makes friends quickly. Wants to befriend everyone."
+        },
+        {
+            "name": "FUNNY",
+            "desc": "Always finds the humor in situations. Good at amusing others & makes friends easily."
+        },
+        {
+            "name": "OBSERVANT",
+            "desc": "Notices & takes note of things more than others. A good listener."
+        },
+        {
+            "name": "AMBITIOUS",
+            "desc": "Concerned with advancing in life, and good at achieving it. Gets stressed between promotions."
+        },
+        {
+            "name": "DAREDEVIL",
+            "desc": "Adrenaline addict. Can make any activity \"Extreme\". Good at avoiding & recovering from injury."
+        },
+        {
+            "name": "FIENDISH",
+            "desc": "Delighted by other's frustration & misfortune. Good at picking and prolonging fights/arguments."
+        },
+        {
+            "name": "FAMILIAL",
+            "desc": "Better at socializing with family. Enjoys taking care of young ones & teaching the basics of life."
+        },
+        {
+            "name": "HOT-HEADED",
+            "desc": "Gets angry rather than sad or uncomfortable. May break stuff in rage, or take it out on others."
+        },
+        {
+            "name": "OUTDOORSY",
+            "desc": "\"One With Nature\". Gets cabin fever if inside for too long. Inclined to fishing and gardening."
+        },
+        {
+            "name": "SENSITIVE",
+            "desc": "Empathetic. Feels emotions more strongly than others. Associated with CRYBABY."
+        },
+        {
+            "name": "PERFECTIONIST",
+            "desc": "Takes longer, but does superior work. Aware of own flaws, and those of other's (and can point them out)."
+        },
+        {
+            "name": "LUDDITE",
+            "desc": "Hates/Fears technology. Espouses superiority of \"Simple\" & \"Natural\" living."
+        },
+        {
+            "name": "VEGETARIAN",
+            "desc": "Healthy. Becomes nauseous around meat or blood."
+        },
+        {
+            "name": "WORKAHOLIC",
+            "desc": "Successful in the workplace. Not stressed by working. Hates missing work. May take their work home."
+        },
+        {
+            "name": "GLOOMY",
+            "desc": "Depressive. Gets sad rather than angry. Won't boast or enthuse. May scream in fury when frustrated."
+        },
+        {
+            "name": "BITCHY",
+            "desc": "Irritable & grouchy. Like to nag and complain. Happy to spread their discontent to others."
+        },
+        {
+            "name": "ROMANTIC",
+            "desc": "Wants Love. Enjoys Love stories. Good at building & repairing romantic relationships."
+        },
+        {
+            "name": "INAPPROPRIATE",
+            "desc": "Doesn't recognize/care about social context. Some find them offensive, some are just amused."
+        },
+        {
+            "name": "LONER",
+            "desc": "Likes to be alone & rarely needs socialization. Hates crowds & company."
+        },
+        {
+            "name": "LOSER",
+            "desc": "Unsuccessful at life in general and competitions especially."
+        },
+        {
+            "name": "CRYBABY",
+            "desc": "Sensitive and prone to tears of joy & sorrow. May cry for no reason. Can \"Cry on Shoulder\" if unhappy."
+        },
+        {
+            "name": "BASTARD",
+            "desc": "A spiteful hater. Good at finding ways to hurt & irritate others."
+        },
+        {
+            "name": "MOOCH",
+            "desc": "A parasite. Good at ingratiating themselves to others in order to use their stuff."
+        },
+        {
+            "name": "SERIOUS",
+            "desc": "No sense of humor. May get angry when subjected to jokey people."
+        },
+        {
+            "name": "SCHMOOZER",
+            "desc": "Skilled at self-advancement through befriending peers & sucking up to superiors."
+        },
+        {
+            "name": "UNROMANTIC",
+            "desc": "Unromantic. Rejects romantic advances."
+        },
+        {
+            "name": "CHILDISH",
+            "desc": "Enjoys playing with toys. Needs more fun than others & gets bored quickly. May have an imaginary friend."
+        },
+        {
+            "name": "SHY",
+            "desc": "Uncomfortable around strangers, prefers to be alone. Dislikes attention. Has a hard time making friends."
+        },
+        {
+            "name": "VAIN",
+            "desc": "High self-regard. Gloats often. Loves compliments. Grooms carefully, & frequently checks appearance."
+        },
+        {
+            "name": "INTREPID",
+            "desc": "Love to travel, explore, discover, and try new things."
+        },
+        {
+            "name": "ARDENT",
+            "desc": "Passionate/Glowing. Believes hard & fights hard for beliefs."
+        },
+        {
+            "name": "ARGUMENTATIVE",
+            "desc": "Enjoys fighting/arguing and usually wins."
+        },
+        {
+            "name": "COCKY",
+            "desc": "Has an overdeveloped sense of own capabilities & advertises that fact."
+        },
+        {
+            "name": "INNOCENT",
+            "desc": "Unexperienced with the world, and usually optimistic to the point of naivet�."
+        },
+        {
+            "name": "CRITICAL",
+            "desc": "Acutely aware of both their own flaws, and those of others. Retaliates with deconstruction when vexed."
+        },
+        {
+            "name": "CRAFTY",
+            "desc": "Cunning. Skilled with deceit & comfortable with using it. Street-Smart."
+        },
+        {
+            "name": "CLEVER",
+            "desc": "Resourceful & Inventive. A problem-solver."
+        },
+        {
+            "name": "DISTRACTABLE",
+            "desc": "Has trouble focusing on tasks for extended periods, especially boring tasks."
+        },
+        {
+            "name": "FOCUSED",
+            "desc": "Attentive, diligent, & industrious."
+        },
+        {
+            "name": "ARROGANT",
+            "desc": "Haughty with knowledge of own skills & knowledge."
+        },
+        {
+            "name": "INSECURE",
+            "desc": "Not comfortable with self. Lacks confidence in own abilities."
+        },
+        {
+            "name": "IRREVERENT",
+            "desc": "Places no value of manners, respect, or the Social Contract. Speaks candidly & damn the consequences."
+        },
+        {
+            "name": "POLITE",
+            "desc": "Respectful & courteous. Minds their manners."
+        },
+        {
+            "name": "INTROVERT",
+            "desc": "Focused on own mind, feelings, desires, and fears."
+        },
+        {
+            "name": "EXTROVERT",
+            "desc": "Outgoing and sociable. Primarily concerned with the affairs of others."
+        },
+        {
+            "name": "BOSSY",
+            "desc": "Assumes leadership of any group they're part of, badgering others to defer."
+        },
+        {
+            "name": "COOPERATIVE",
+            "desc": "Good at working in groups. Shares responsibilities & credit equitably."
+        },
+        {
+            "name": "EASYGOING",
+            "desc": "Doesn't mind changing plans & goals to suit the needs of others. Unconcerned with success."
+        },
+        {
+            "name": "INTRACTABLE",
+            "desc": "Stubborn to the point of obsessive. Will never admit to being wrong, or even consider it possible."
+        },
+        {
+            "name": "SEDENTARY",
+            "desc": "Doesn't like to move, preferring to lounge around & relax."
+        },
+        {
+            "name": "AFFECTIONATE",
+            "desc": "Openly expresses affection for people around them and is never ashamed or embarrassed."
+        },
+        {
+            "name": "CALLOUS",
+            "desc": "Insensitive and indifferent. Has no concern for the feelings of others."
+        },
+        {
+            "name": "ANIMATED",
+            "desc": "Likes to express feelings with gestures."
+        },
+        {
+            "name": "RESERVED",
+            "desc": "Keeps their emotions inside. Always appears calm & collected."
+        },
+        {
+            "name": "COMPASSIONATE",
+            "desc": "Sensitive to the feelings & needs of others."
+        },
+        {
+            "name": "CULTURED",
+            "desc": "Is learned in the ways of High Society and has refined tastes & sensibilities."
+        },
+        {
+            "name": "BOORISH",
+            "desc": "Informal, simplistic, unrefined, even rude."
+        },
+        {
+            "name": "DOMINANT",
+            "desc": "Possessive and controlling. They're only happy if they're in control."
+        },
+        {
+            "name": "SUBMISSIVE",
+            "desc": "Prefers to defer control to a more dominant personality."
+        },
+        {
+            "name": "ENIGMATIC",
+            "desc": "Secretive, unreadable, and mysterious. Nobody can read their poker face."
+        },
+        {
+            "name": "LOYAL",
+            "desc": "Faithfully dedicated to people around them. their first priority is always their friends."
+        },
+        {
+            "name": "TRECHEROUS",
+            "desc": "Duplicitous & disloyal, they will happily switch sides if it suits their purposes."
+        },
+        {
+            "name": "OPPORTUNIST",
+            "desc": "Always on the lookout for something/someone to exploit. Good at turning situations to their advantage."
+        },
+        {
+            "name": "OPTIMISTIC",
+            "desc": "Always expects the best from people, always hopes for the ideal outcome."
+        },
+        {
+            "name": "PESSIMISTIC",
+            "desc": "Always expects the worst from everything and prepares for bad outcomes."
+        },
+        {
+            "name": "SELFISH",
+            "desc": "Concerned exclusively with their own needs, desires, & goals."
+        },
+        {
+            "name": "GENEROUS",
+            "desc": "Giving & selfless. Always ready with a helping hand or emotional support."
+        },
+        {
+            "name": "SAVVY",
+            "desc": "Experienced & knowledgeable. Hard to trick."
+        },
+        {
+            "name": "GULLIBLE",
+            "desc": "Easily misled by rhetoric or logical trickery."
+        },
+        {
+            "name": "PATIENT",
+            "desc": "They never get frustrated while waiting, and are willing to bide their time until the ideal moment."
+        },
+        {
+            "name": "IMPATIENT",
+            "desc": "Frustrated whenever they are forced to wait. Will always act immediately whenever possible."
+        },
+        {
+            "name": "JOINER",
+            "desc": "Prefers to be a part of a group, and willing change themselves to fit it."
+        },
+        {
+            "name": "PRACTICAL",
+            "desc": "Grounded and utilitarian. Focused on the present & reality. Concerned with exigency rather than desire."
+        },
+        {
+            "name": "DEFIANT",
+            "desc": "Rebellious. Thrives when faced by social pressures or danger."
+        },
+        {
+            "name": "PARTIER",
+            "desc": "Throws legendary parties. Can \"Woo!\" to amuse & excite a crowd. More likely to hook up at parties."
+        },
+        {
+            "name": "SPOOKY",
+            "desc": "Fearful & Nervous. Easily startled and terrified. May have a collection of inane and/or absurd fears."
+        },
+        {
+            "name": "OBJECTIVE",
+            "desc": "Unbiased. Able to distance themselves from a situation, adopting the perspective of an outsider."
+        },
+        {
+            "name": "IMAGINATIVE",
+            "desc": "An inventive lateral thinker, they live \"outside the box\"."
+        },
+        {
+            "name": "CURIOUS",
+            "desc": "Compulsively investigate new & unknown things. Usually possess a strong sense of wonder & love of mystery."
+        },
+        {
+            "name": "RELIANT",
+            "desc": "Dependable. Always ready when they're called for."
+        },
+        {
+            "name": "GENTLE",
+            "desc": "Tender & kind. They have a light hand in matters physical and emotional."
+        }
+    ]
+}

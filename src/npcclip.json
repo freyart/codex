@@ -1,0 +1,652 @@
+{
+    "categories": [
+        {
+            "name": "Arcane",
+            "label": "Arcane"
+        },
+        {
+            "name": "Archery",
+            "label": "Archery"
+        },
+        {
+            "name": "Crime",
+            "label": "Crime"
+        },
+        {
+            "name": "Occult",
+            "label": "Occult"
+        },
+        {
+            "name": "Holy",
+            "label": "Holy"
+        },
+        {
+            "name": "Martial",
+            "label": "Martial"
+        },
+        {
+            "name": "Monastic",
+            "label": "Monastic"
+        },
+        {
+            "name": "Seafaring",
+            "label": "Seafaring"
+        },
+        {
+            "name": "Unholy",
+            "label": "Unholy"
+        },
+        {
+            "name": "Urban",
+            "label": "Urban"
+        },
+        {
+            "name": "Wilderness",
+            "label": "Wilderness"
+        }
+    ],
+    "monsters": [
+        {
+			"id": 1,
+            "name": "Archmage",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "12"
+        },
+		{
+			"id": 2,
+            "name": "Assassin",
+            "category": "Crime",
+            "keywords": "",
+            "cr": "8"
+        },
+		{
+			"id": 3,
+            "name": "Bandit",
+            "category": "Crime",
+            "keywords": "",
+            "cr": "1/8"
+        },
+		{
+			"id": 4,
+            "name": "Bandit Captain",
+            "category": "Crime",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 5,
+            "name": "Berserker",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 6,
+            "name": "Commoner",
+            "category": "Urban",
+            "keywords": "",
+            "cr": "0"
+        },
+		{
+			"id": 7,
+            "name": "Cultist",
+            "category": "Occult",
+            "keywords": "",
+            "cr": "1/8"
+        },
+		{
+			"id": 8,
+            "name": "Cult Fanatic",
+            "category": "Occult",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 9,
+            "name": "Druid",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 10,
+            "name": "Gladiator",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "5"
+        },
+		{
+			"id": 11,
+            "name": "Guard",
+            "category": "Urban",
+            "keywords": "",
+            "cr": "1/8"
+        },
+		{
+			"id": 12,
+            "name": "Mage",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "6"
+        },
+		{
+			"id": 13,
+            "name": "Knight",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "3"
+        },
+		{
+			"id": 14,
+            "name": "Acolyte",
+            "category": "Holy",
+            "keywords": "",
+            "cr": "1/4"
+        },
+		{
+			"id": 15,
+            "name": "Noble",
+            "category": "Urban",
+            "keywords": "",
+            "cr": "1/8"
+        },
+		{
+			"id": 16,
+            "name": "Priest",
+            "category": "Holy",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 17,
+            "name": "Scout",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "1/2"
+        },
+		{
+			"id": 18,
+            "name": "Spy",
+            "category": "Urban",
+            "keywords": "",
+            "cr": "1"
+        },
+		{
+			"id": 19,
+            "name": "Thug",
+            "category": "Crime",
+            "keywords": "",
+            "cr": "1/2"
+        },
+		{
+			"id": 20,
+            "name": "Tribal Warrior",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "1/8"
+        },
+		{
+			"id": 21,
+            "name": "Veteran",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "3"
+        },
+		{
+			"id": 22,
+            "name": "Alchemist",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 23,
+            "name": "Arcane Trickster",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 24,
+            "name": "Artificer Gunsmith",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "3"
+        },
+		{
+			"id": 25,
+            "name": "Bandit Lord",
+            "category": "Crime",
+            "keywords": "",
+            "cr": "6"
+        },
+		{
+			"id": 26,
+            "name": "Beast Master",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "1"
+        },
+		{
+			"id": 27,
+            "name": "Bruiser",
+            "category": "Crime",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 28,
+            "name": "Brute",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "3"
+        },
+		{
+			"id": 29,
+            "name": "Cavalier",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 30,
+            "name": "Cleric, Grave",
+            "category": "Holy",
+            "keywords": "",
+            "cr": "5"
+        },
+		{
+			"id": 31,
+            "name": "Dark Priest",
+            "category": "Occult",
+            "keywords": "",
+            "cr": "6"
+        },
+		{
+			"id": 32,
+            "name": "Defender",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "1"
+        },
+		{
+			"id": 33,
+            "name": "Defender, Elite",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "7"
+        },
+		{
+			"id": 34,
+            "name": "Delver",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "1"
+        },
+		{
+			"id": 35,
+            "name": "Diplomat",
+            "category": "Urban",
+            "keywords": "",
+            "cr": "1/8"
+        },
+		{
+			"id": 36,
+            "name": "Duelist",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 37,
+            "name": "Guerilla",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "1/2"
+        },
+		{
+			"id": 38,
+            "name": "Honor-Bound Fighter",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "5"
+        },
+		{
+			"id": 39,
+            "name": "Horizon Walker",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "7"
+        },
+		{
+			"id": 40,
+            "name": "Infiltrator",
+            "category": "Crime",
+            "keywords": "",
+            "cr": "4"
+        },
+		{
+			"id": 41,
+            "name": "Mage, Journeyman",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 42,
+            "name": "Mage, Legendary",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "19"
+        },
+		{
+			"id": 43,
+            "name": "Mariner",
+            "category": "Seafaring",
+            "keywords": "",
+            "cr": "1/4"
+        },
+		{
+			"id": 44,
+            "name": "Mariner, Salty",
+            "category": "Seafaring",
+            "keywords": "",
+            "cr": "3"
+        },
+		{
+			"id": 45,
+            "name": "Martial Commander",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "4"
+        },
+		{
+			"id": 46,
+            "name": "Master Swordsman",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "7"
+        },
+		{
+			"id": 47,
+            "name": "Medic",
+            "category": "Urban",
+            "keywords": "",
+            "cr": "1/8"
+        },
+		{
+			"id": 48,
+            "name": "Monk of the Four Elements",
+            "category": "Monastic",
+            "keywords": "",
+            "cr": "4"
+        },
+		{
+			"id": 49,
+            "name": "Monk, Grandmaster",
+            "category": "Monastic",
+            "keywords": "",
+            "cr": "17"
+        },
+		{
+			"id": 50,
+            "name": "Monk, Kensei",
+            "category": "Monastic",
+            "keywords": "",
+            "cr": "4"
+        },
+		{
+			"id": 51,
+            "name": "Monster Slayer",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "5"
+        },
+		{
+			"id": 52,
+            "name": "Mysterious Wanderer",
+            "category": "Occult",
+            "keywords": "",
+            "cr": "9"
+        },
+		{
+			"id": 53,
+            "name": "Ninja",
+            "category": "Crime",
+            "keywords": "",
+            "cr": "6"
+        },
+		{
+			"id": 54,
+            "name": "Outland Veteran",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 55,
+            "name": "Pain Master",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "5"
+        },
+		{
+			"id": 56,
+            "name": "Paladin",
+            "category": "Holy",
+            "keywords": "",
+            "cr": "5"
+        },
+		{
+			"id": 57,
+            "name": "Performer",
+            "category": "Urban",
+            "keywords": "",
+            "cr": "3"
+        },
+		{
+			"id": 58,
+            "name": "Priest, Chosen",
+            "category": "Holy",
+            "keywords": "",
+            "cr": "15"
+        },
+		{
+			"id": 59,
+            "name": "Psion, Awakened",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "5"
+        },
+		{
+			"id": 60,
+            "name": "Psion, Immortal",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "4"
+        },
+		{
+			"id": 61,
+            "name": "Psion, Wu Jen",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "5"
+        },
+		{
+			"id": 62,
+            "name": "Ranger",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "3"
+        },
+		{
+			"id": 63,
+            "name": "Relentless Fighter",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "1"
+        },
+		{
+			"id": 64,
+            "name": "Rugged Warrior",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "1/2"
+        },
+		{
+			"id": 65,
+            "name": "Scholar",
+            "category": "Urban",
+            "keywords": "",
+            "cr": "1/8"
+        },
+		{
+			"id": 66,
+            "name": "Scoundrel",
+            "category": "Crime",
+            "keywords": "",
+            "cr": "1/4"
+        },
+		{
+			"id": 67,
+            "name": "Scout Rider",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "1"
+        },
+		{
+			"id": 68,
+            "name": "Shaman, Nature",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "5"
+        },
+		{
+			"id": 69,
+            "name": "Skirmisher",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "3"
+        },
+		{
+			"id": 70,
+            "name": "Skyward Fighter",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "1"
+        },
+		{
+			"id": 71,
+            "name": "Slayer",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "7"
+        },
+		{
+			"id": 72,
+            "name": "Soldier",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "1"
+        },
+		{
+			"id": 73,
+            "name": "Sorcerer, Wild Magic",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "7"
+        },
+		{
+			"id": 74,
+            "name": "Sorcerer, Wyrd",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "4"
+        },
+		{
+			"id": 75,
+            "name": "Spellsword",
+            "category": "Arcane",
+            "keywords": "",
+            "cr": "4"
+        },
+		{
+			"id": 76,
+            "name": "Spirit Barbarian",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "5"
+        },
+		{
+			"id": 77,
+            "name": "Stalwart Guard",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "1"
+        },
+		{
+			"id": 78,
+            "name": "Storm Herald",
+            "category": "Holy",
+            "keywords": "",
+            "cr": "6"
+        },
+		{
+			"id": 79,
+            "name": "Swift Champion",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "7"
+        },
+		{
+			"id": 80,
+            "name": "Swift Fighter",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "1"
+        },
+		{
+			"id": 81,
+            "name": "Swift Fighter, Legendary",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "13"
+        },
+		{
+			"id": 82,
+            "name": "Thrall",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "1/4"
+        },
+		{
+			"id": 83,
+            "name": "Thunderer",
+            "category": "Martial",
+            "keywords": "",
+            "cr": "2"
+        },
+		{
+			"id": 84,
+            "name": "Tribal Assassin",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "6"
+        },
+		{
+			"id": 85,
+            "name": "Tribal Zealot",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "6"
+        },
+		{
+			"id": 86,
+            "name": "Warchief",
+            "category": "Wilderness",
+            "keywords": "",
+            "cr": "5"
+        }
+    ]
+}

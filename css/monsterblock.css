@@ -1,0 +1,134 @@
+.stat-block * {
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+}
+.stat-block {
+  font-size: 13.5px;
+  line-height: 1.2em;
+  text-align: left;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+  min-width:280px;
+  background: #FDF1DC;
+  padding: 5px 10px 20px;
+  box-shadow: 0 0 1.5em #867453;
+}
+.stat-block h1 {
+  text-align: left;
+}
+.stat-block h4 {
+  font-weight: bold;
+}
+.stat-block.wide{
+  width: 46.5%;
+  min-width: 560px;
+  text-align: center;
+}
+.tapered-rule{
+  display: block;
+  width: 100%;
+  height: 5px;
+  border: none;
+  color: #922610;
+  fill: #922610;
+  stroke: #922610;
+}
+.stat-block .creature-heading h1{
+  font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+  color: #922610;
+  font-size: 23px;
+  line-height: 1.2em;
+  margin: 10px 0 0;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+.stat-block .creature-heading h2{
+  font-weight: normal;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.2em;
+  margin: 0 0 10px;
+}
+.stat-block .property-line h4,
+.stat-block .property-line p{
+  display: inline;
+  margin: 0;
+  color: #922610;
+  font-size: 13.5px;
+  line-height: 1.2em;
+}
+.stat-block .property-line h4{
+  color: #7A200D;
+}
+
+.stat-block .properties .property-line:first-child{
+  margin: 8px 0 0;
+}
+
+.stat-block .properties .property-line:last-child{
+  margin: 0 0 10px;
+}
+
+.stat-block .property-line{
+  text-indent: -1em;
+  padding-left: 1.1em;
+  line-height: 1.4em;
+}
+
+.stat-block .abilities{
+  text-align: center;
+  color: #922610;
+}
+.stat-block .abilities > div{
+  display: inline-block;
+  vertical-align: middle;
+  width: 15.5%;
+  min-width: 40px; 
+  font-size: 12px;
+  line-height: 1em;
+}
+.stat-block .abilities h4{
+  margin: 10px 0 2px;
+  font-size: 14px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  color: #7A200D;
+}
+.stat-block .abilities p{
+  margin: 0 0 10px;
+  line-height: 1.2em;
+}
+.stat-block .property-block h4,
+.stat-block .property-block p{
+  font-size: 13.5px;
+  line-height: 1.2em;
+  display: inline;
+  margin: 0;
+}
+.stat-block .property-block h4{
+  font-style: italic;
+}
+.stat-block .property-block{
+  padding: 10px 2px 0;
+}
+.stat-block .actions h3{
+  border-bottom: 1px solid #7A200D;
+  color: #7A200D;
+  font-size: 21px;
+  font-variant: small-caps;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin: 20px 0 0;
+  padding: 0;
+  text-indent: 5px;
+}
+.stat-block .actions{
+  margin: 0 0 20px;
+}
+.stat-block .actions:last-child{
+  margin: 0;
+}
+
