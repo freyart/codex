@@ -17,6 +17,130 @@
 		"dateAdded": 1563530393
 	},
 	"monster": [
+	{
+		"name": "Shepherd",
+		"size": "M",
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"any race"
+			]
+		},
+		"source": "PerisCodexNPCs",
+		"alignment": [
+			"N"
+		],
+		"ac": [
+			{
+				"ac": 13,
+				"from": [
+					"{@item leather armor|phb}"
+				]
+			}
+		],
+		"hp": {
+			"formula": "7d8 + 14",
+			"average": 45
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 12,
+		"dex": 14,
+		"con": 14,
+		"int": 12,
+		"wis": 16,
+		"cha": 10,
+		"passive": 15,
+		"cr": "2",
+		"shortName": "Shepherd",
+		"languages": [
+			"Druidic plus any two languages"
+		],
+		"languageTags": [
+			"DU",
+			"X"
+		],
+		"save": {
+			"wis": "+5"
+		},
+		"skill": {
+			"animal handling": "+5",
+			"perception": "+5"
+		},
+		"trait": [
+			{
+				"name": "Animal Companion",
+				"entries": [
+					"The shepherd is accompanied by one of the following creatures: a {@creature black bear|MM}, an {@creature elk|MM}, a {@creature panther|MM}, or a {@creature wolf|MM}."
+				]
+			},
+			{
+				"name": "Language of the Land",
+				"entries": [
+					"The shepherd is able to converse with beasts. Most beasts lack sufficient intelligence to convey or understand complicated concepts, but could converse in simple terms and are willing to help the shepherd with simple tasks."
+				]
+			}
+		],
+		"spellcasting": [
+			{
+				"name": "Spellcasting",
+				"headerEntries": [
+					"The shepherd is a 5th level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, +5 to hit with spell attacks). The shepherd has the following spells prepared:"
+				],
+				"spells": {
+					"0": {
+						"spells": [
+							"{@spell druidcraft|PHB}",
+							"{@spell mending|PHB}",
+							"{@spell poison spray|PHB}"
+						]
+					},
+					"1": {
+						"spells": [
+							"{@spell cure wounds|PHB}",
+							"{@spell entangle|PHB}",
+							"{@spell faerie fire|PHB}"
+						],
+						"slots": 4
+					},
+					"2": {
+						"spells": [
+							"{@spell barkskin|PHB}",
+							"{@spell locate animals or plants|PHB}"
+						],
+						"slots": 3
+					},
+					"3": {
+						"spells": [
+							"{@spell conjure animals|PHB}",
+							"{@spell plant growth|PHB}"
+						],
+						"slots": 2
+					}
+				},
+				"ability": "wis",
+				"type": "spellcasting"
+			}
+		],
+		"action": [
+			{
+				"name": "Scimitar",
+				"entries": [
+					"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6 + 2}) damage."
+				]
+			},
+			{
+				"name": "Summon Fey (1/Day)",
+				"entries": [
+					"The shepherd summons a {@creature dryad|MM} (25%), {@creature pixie|MM} (25%), or {@creature satyr|MM} (50%) that arrives at the start of the shepherd's next turn and remains for 1 minute."
+				]
+			}
+		],
+		"miscTags": [
+			"MW"
+		]
+	},
 		{	
 			"name": "Larethar Gulgrin",
 			"size": "M",
@@ -29,7 +153,7 @@
 					}
 				]
 			},
-			"source": "SwordCoastLegendsNPCs",
+			"source": "PerisCodexNPCs",
 			"alignment": [
 				"N"
 			],
@@ -183,7 +307,7 @@
 					}
 				]
 			},
-			"source": "SwordCoastLegendsNPCs",
+			"source": "PerisCodexNPCs",
 			"alignment": [
 				"N",
 				"G"
