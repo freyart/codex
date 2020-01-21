@@ -14,7 +14,7 @@
 				]
 			}
 		],
-		"dateAdded": 1579631480
+		"dateAdded": 1579634006
 	},
 	"monster": [
 		{
@@ -341,6 +341,379 @@
 				"MW",
 				"THW"
 			]
+		},
+		{
+			"name": "Bastion",
+			"source": "PerisCodexNPCs",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "13d8 + 52",
+				"average": 110
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 11,
+			"con": 18,
+			"int": 12,
+			"wis": 14,
+			"cha": 10,
+			"save": {
+				"str": "+7",
+				"con": "+7"
+			},
+			"skill": {
+				"athletics": "+7",
+				"intimidation": "+3"
+			},
+			"passive": 12,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the bastion hits with it (included in the attack)."
+					]
+				},
+				{
+					"name": "Shelter",
+					"entries": [
+						"Allies within 5 feet of the bastion gain a +2 bonus to their AC, if the bastion is not {@condition prone} or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Shield Charge",
+					"entries": [
+						"If the bastion moves at least 10 feet straight toward a target and then hits it with its flail on the same turn, the target takes an extra 13 ({@damage 3d8}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 15} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bastion makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Flail",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 7} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage in melee, or 11 ({@damage 2d6 + 4}) piercing damage at range."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Block",
+					"entries": [
+						"The bastion adds +3 AC against an attack that would normally hit it. To do so, the bastion must see the attacker and be wielding a shield."
+					]
+				}
+			],
+			"traitTags": [
+				"Brute"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"srd": true
+		},
+		{
+			"name": "Brawler",
+			"source": "PerisCodexNPCs",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 15,
+			"int": 9,
+			"wis": 10,
+			"cha": 9,
+			"skill": {
+				"athletics": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Still Standing",
+					"entries": [
+						"If the brawler has 10 or fewer hit points remaining, it has advantage on attack rolls."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The brawler makes two unarmed strikes."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"srd": true
+		},
+		{
+			"name": "Defender",
+			"source": "PerisCodexNPCs",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"{@item splint armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 9,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Warhammer",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, or 7 ({@damage 1d10 + 2}) damage if used with both hands."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}11 ({@damage 1d6 + 2}) piercing damage in melee, or 11 ({@damage 1d6 + 2}) piercing damage at range."
+					]
+				},
+				{
+					"name": "Goading Attack {@recharge 5}",
+					"entries": [
+						"The defender makes an attack which, if it hits, imposes disadvantage on the target if it attacks any creature but the defender. The defender's attack also deals an additional 4 ({@damage 1d8}) extra damage with the attack."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Block",
+					"entries": [
+						"The defender adds +2 AC against an attack that would normally hit it. To do so, the defender must see the attacker and be wielding a shield."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"srd": true
+		},
+		{
+			"name": "Duelist",
+			"source": "PerisCodexNPCs",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"Suave Defense"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 12,
+			"int": 12,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Suave Defense",
+					"entries": [
+						"When the duelist is wearing light armor or no armor and is not wielding a shield, its AC includes its Charisma modifier."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The duelist makes two rapier attacks."
+					]
+				},
+				{
+					"name": "Rapier",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The duelist adds +2 AC against an attack that would normally hit it. To do so, the duelist must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"srd": true
 		}
 	]
 }
