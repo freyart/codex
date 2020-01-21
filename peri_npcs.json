@@ -14,7 +14,7 @@
 				]
 			}
 		],
-		"dateAdded": 1579634006
+		"dateAdded": 1579643311
 	},
 	"monster": [
 		{
@@ -714,6 +714,559 @@
 				"MW"
 			],
 			"srd": true
+		},
+		{
+			"name": "Honor-Bound Fighter",
+			"source": "PerisCodexNPCs",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item splint armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "12d8 + 24",
+				"average": 78
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 15,
+			"int": 13,
+			"wis": 15,
+			"cha": 14,
+			"save": {
+				"cha": "+5",
+				"str": "+6",
+				"wis": "+5"
+			},
+			"skill": {
+				"athletics": "+6"
+			},
+			"passive": 12,
+			"languages": [
+				"Any one language (usually common)"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Death Before Dishonor",
+					"entries": [
+						"The honor-bound fighter has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Still Standing",
+					"entries": [
+						"While it has 20 hit points or fewer, the fighter has advantage on attack rolls."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fighter makes three weapon attacks."
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			]
+		},
+		{
+			"name": "Heterodox Priest",
+			"source": "PerisCodexNPCs",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 28",
+				"average": 91
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 14,
+			"int": 13,
+			"wis": 16,
+			"cha": 14,
+			"save": {
+				"wis": "+6"
+			},
+			"skill": {
+				"religion": "+4"
+			},
+			"passive": 13,
+			"languages": [
+				"Any three languages"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The heterodox priest is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, +6 to hit with spell attacks). The heterodox priest has the following cleric spells prepared: "
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance|PHB}",
+								"{@spell sacred flame|PHB}",
+								"{@spell thaumaturgy|PHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell command|PHB}",
+								"{@spell cure wounds|PHB}",
+								"{@spell inflict wounds|PHB}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell augury|PHB}",
+								"{@spell hold person|PHB}",
+								"{@spell spiritual weapon|PHB}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse|PHB}",
+								"{@spell sending|PHB}",
+								"{@spell speak with dead|PHB}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell divination|PHB}",
+								"{@spell freedom of movement|PHB}",
+								"{@spell locate creature|PHB}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell flame strike|PHB}",
+								"{@spell mass cure wounds|PHB}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The heterodox priest makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage in melee, or 5 ({@damage 1d4 + 3}) piercing damage at range."
+					]
+				},
+				{
+					"name": "Morningstar",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"THW"
+			]
+		},
+		{
+			"name": "Journeyman Mage",
+			"source": "PerisCodexNPCs",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor|PHB}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 0",
+				"average": 31
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 11,
+			"int": 16,
+			"wis": 12,
+			"cha": 11,
+			"skill": {
+				"arcana": "+5"
+			},
+			"passive": 11,
+			"languages": [
+				"Any three languages"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The journeyman mage is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, +5 to hit with spell attacks). The journeyman wizard has the following wizard spells prepared:"
+					],
+					"footerEntries": [
+						"* The wizard casts these spells on himself before combat."
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt|PHB}",
+								"{@spell mending|PHB}",
+								"{@spell minor illusion|PHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell jump|PHB}",
+								"{@spell mage armor|PHB}*",
+								"{@spell shield|PHB}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell aganazzar's scorcher|XGE}",
+								"{@spell alter self|PHB}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell|PHB}",
+								"{@spell lightning bolt|PHB}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage, or 4 ({@damage 1d8}) damage if used with both hands."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Spellsword",
+			"source": "PerisCodexNPCs",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item breastplate|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "11d8 + 22",
+				"average": 71
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 14,
+			"int": 16,
+			"wis": 12,
+			"cha": 12,
+			"skill": {
+				"arcana": "+6"
+			},
+			"passive": 11,
+			"languages": [
+				"Any two languages"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The spellsword is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 14}, +6 to hit with spell attacks). The spellsword has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt|PHB}",
+								"{@spell true strike|PHB}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell grease|PHB}",
+								"{@spell shield|PHB}",
+								"{@spell thunderwave|PHB}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell flaming sphere|PHB}",
+								"{@spell invisibility|PHB}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "War Magic",
+					"entries": [
+						"When the spellsword uses its action to cast a cantrip or 1st-level spell, it can make an attack with its longsword as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The spellsword makes two longsword attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with both hands."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Beast Master",
+			"source": "PerisCodexNPCs",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 14,
+			"int": 13,
+			"wis": 16,
+			"cha": 14,
+			"skill": {
+				"animal handling": "+5",
+				"nature": "+3",
+				"survival": "+5"
+			},
+			"passive": 13,
+			"languages": [
+				"Any one language (usually common)"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The beast master is a 2nd level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, +5 to hit with spell attacks). The beastmaster has the following ranger spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell animal friendship|PHB}",
+								"{@spell speak with animals|PHB}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Exceptional Training",
+					"entries": [
+						"The beast master can have a bond with one or more beasts from the Monster Manual, as determined by the DM. The beast obeys the master's commands as best as it can, and takes its turns on the master's initiative order.",
+						"On it's turn, the beast master can verbally command the beast where to move (with no action required on the master's part). In place of one of its weapon attacks, the beast master can command the beast to take the Attack action. The beast has advantage on attacks it is commanded to make.",
+						"As a bonus action, the beast master can command the beast to take the Dash, Disengage, Dodge, or Help action. It takes attacks of opportunity and other reactions without needing the beast master's command."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The beast master makes two weapon attacks."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}3 ({@damage 1d6 + 3}) damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"CR"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			]
 		}
 	]
 }
