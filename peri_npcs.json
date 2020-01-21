@@ -17,6 +17,7 @@
 		"dateAdded": 1563530393
 	},
 	"monster": [
+		{	
 			"name": "Larethar Gulgrin",
 			"size": "M",
 			"type": {
